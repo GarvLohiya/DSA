@@ -7,7 +7,7 @@ class Solution {
         for (int right = 0; right < n; right++) {
             sum += nums[right];
 
-            // shrink window while sum >= target
+            
             while (sum >= target) {
                 minLen = Math.min(minLen, right - left + 1);
                 sum -= nums[left];
