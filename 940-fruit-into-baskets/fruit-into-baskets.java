@@ -15,6 +15,9 @@ class Solution {
                 }
                 low++;
             }
+            if(mp.size()==2){
+                
+            }
             res=Math.max(res,high-low+1);
             high++;
         }
